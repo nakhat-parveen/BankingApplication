@@ -7,7 +7,7 @@ import com.paymentmicroservice.dto.TransactionDto;
 import com.paymentmicroservice.dto.TransactionResponseDto;
 
 
-@FeignClient(name="http://BANK-SERVICE/bankapi/transaction")
+@FeignClient(name="http://bank-service", path = "/bankapi/transaction")
 public interface BankFeign {
 	
 	@PostMapping("/via/phone-numbers")
