@@ -135,7 +135,7 @@ Single entry point for all client requests. Routes `/Registration/**` and `/tran
 
 | Component | Technology |
 |---|---|
-| Language | Java 17 |
+| Language | Java  |
 | Framework | Spring Boot |
 | Service Discovery | Spring Cloud Netflix Eureka |
 | API Gateway | Spring Cloud Gateway |
@@ -150,7 +150,7 @@ Single entry point for all client requests. Routes `/Registration/**` and `/tran
 
 ### Prerequisites
 
-- Java 17+
+- Java 8+
 - MySQL 8+
 - Maven 3.8+
 
