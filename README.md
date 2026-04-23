@@ -1,6 +1,6 @@
 # Banking Application — Microservices System
 
-A microservices based banking system built with Spring Boot and Spring Cloud. Two independently deployable services handle different payment flows, with **Feign Client** for inter-service communication, **Eureka** for service discovery, and an **API Gateway** as the single entry point for all clients.
+A microservices based banking system built with Spring Boot and Spring Cloud. Two independently deployable services handle different payment flows, with **Feign Client** for inter service communication, **Eureka** for service discovery, and an **API Gateway** as the single entry point for all clients.
 
 Supports two distinct fund transfer flows: direct account to account transfers handled entirely by the core banking service, and UPI/GPay style phone number based payments routed through a dedicated payment microservice which delegates the actual transaction to the core banking service via Feign.
 
